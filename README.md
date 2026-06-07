@@ -69,9 +69,7 @@
 ```
 .
 ├── train.py                  # 核心代码：环境、DQN网络、训练与评估
-├── try.py                    # GPU 检测工具
 ├── dqn_breakout_model.pth    # 训练完成的模型权重
-├── checkpoint.pth            # 训练检查点（断点续训用）
 ├── breakout_dqn_rewards.png  # 训练奖励曲线图
 ├── breakout.mp4              # 智能体游戏演示视频
 ├── train.txt                 # 完整训练日志（episode 0-4950）
